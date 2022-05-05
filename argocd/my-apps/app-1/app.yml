@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-app-1
+  namespace: applications
   labels:
     app: nginx-app-1
 spec:
